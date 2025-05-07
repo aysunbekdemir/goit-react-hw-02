@@ -1,4 +1,4 @@
-import css from './Options.module.css';
+import css from './Options.css';
 
 const Options = ({ feedback, updateFeedback, totalFeedback, resetFeedback }) => {
   return (
