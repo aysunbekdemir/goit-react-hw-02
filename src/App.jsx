@@ -5,7 +5,6 @@ import Feedback from './components/Feedback/Feedback.jsx';
 import Notification from './components/Notification/Notification.jsx';
 import css from './App.module.css';
 
-
 function App() {
 
   const [feedback, setFeedback] = useState(() => {
