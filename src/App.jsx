@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Options from './components/Options/Options.jsx';
 import Feedback from './components/Feedback/Feedback.jsx';
 import Notification from './components/Notification/Notification.jsx';
-import './App.css'
+import css from './App.module.css';
 
 
 function App() {
