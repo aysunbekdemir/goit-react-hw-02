@@ -1,0 +1,28 @@
+.feedback {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #5c3d2e;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
