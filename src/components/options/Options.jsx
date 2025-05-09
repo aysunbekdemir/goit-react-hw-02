@@ -22,7 +22,6 @@ const Options = ({ feedback, updateFeedback, totalFeedback, resetFeedback }) => 
         Bad
       </button>
 
-      {/* Step 4: Reset button that only appears when there's feedback */}
       {totalFeedback > 0 && (
         <button 
           className={`${css.button} ${css.reset}`}
